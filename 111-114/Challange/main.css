@@ -38,6 +38,7 @@ body {
     height: 20px;
     font-size: 10px;
     outline: none;
+    cursor: pointer;
 }
 
 .tasks{
@@ -47,13 +48,17 @@ body {
     gap: 5px;
 }
 
-.task span{
+.task{
     border-radius: 5px;
     padding: 5px;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.deactivate{
+    opacity: 50%;
 }
 
 .task button{
@@ -64,4 +69,5 @@ body {
     height: 20px;
     font-size: 10px;
     outline: none;
+    cursor: pointer;
 }
